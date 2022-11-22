@@ -1,0 +1,41 @@
+.mainContainer {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.navbars {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  margin-left: 15px;
+}
+
+.iconsize {
+  width: 33px;
+  margin-left: 30px;
+}
+
+.icn img {
+  cursor: pointer;
+}
+
+.serchBar {
+  position: absolute;
+  right: 20px;
+}
+
+.searchText {
+  height: 35px;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-primary {
+  height: 35px;
+}
