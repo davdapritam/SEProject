@@ -1,41 +1,31 @@
 .mainContainer {
-  margin: 0px 0px;
-  padding: 0px 0px;
-  width: 100%;
-  height: 100%;
-}
-
-.navbars {
-  padding: 10px;
-  display: flex;
   width: 100%;
 }
 
-.icons {
+.cardContainer {
+  margin-top: 50px;
   display: flex;
-  margin-left: 15px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.iconsize {
-  width: 33px;
-  margin-left: 30px;
-}
-
-.icn img {
+.card {
+  min-width: 23%;
+  max-width: 26%;
+  margin: 20px;
   cursor: pointer;
 }
 
-.serchBar {
-  position: absolute;
-  right: 20px;
+.card-img-top:hover {
+  opacity: 0.8;
 }
 
-.searchText {
-  height: 35px;
-  outline: none;
-  box-shadow: none;
-}
-
-.btn-primary {
-  height: 35px;
+.card-title {
+  margin-top: 10px;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
 }

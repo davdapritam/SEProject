@@ -1,0 +1,33 @@
+nav {
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  background: #2a2939;
+  color: white;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navbars {
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  margin-left: 10px;
+  display: flex;
+}
+
+.navitem {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.profile {
+  position: absolute;
+  right: 30px;
+}
